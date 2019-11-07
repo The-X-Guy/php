@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+pre {
+    font-family: Arial;
+}
+.data {
+    padding-lefT: 40px;
+}
+
+table, th, td, tr{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table th {
+    background-color: lightgray;
+}
+
+.nota {
+    color: darkred;
+    font-weight: bolder;
+}
