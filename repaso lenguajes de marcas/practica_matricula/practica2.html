@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--Probado en Microsoft Edge Beta 77-->
+<head>
+    <meta charset="UTF-8">
+    <meta lang="es">
+    <title>Práctica 2</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="table_title" colspan=5 style="font-size: 1em;">
+                <div>
+                    <img style="position: relative" width="30%" src="./logo_ies.jpg">
+                </div>
+                <div>
+                    1º BACHILLERATO HUMANIDADES Y CIENCIAS SOCIALES<br>IES LOS MANANTIALES 2008-09
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <th class="personal_data" style="width:20%;">
+                Primer apellido
+                <input type="text" name="apellido1">
+            </th>
+            <th class="personal_data" style="width:20%">
+                Segundo apellido
+                <input type="text" name="apellido2">
+            </th>
+            <th class="personal_data" style="width:30%">
+                Nombre
+                <input type="text" name="nombre">
+            </th>
+            <th class="personal_data" style="width:10%">
+                DNI
+                <input type="text" name="dni">
+            </th>
+            <th class="personal_data" style="width:10%">
+                Teléfono
+                <input type="text" name="telefono">
+            </th>
+        </tr>
+        <tr>
+            <th class="personal_data" style="width:40%" colspan=2>
+                Lugar de nacimiento (Municipio - Provincia)
+                <input type="text" name="lugar_nacimiento">
+            </th>
+            <th class="personal_data" style="width:20%" colspan=2>
+                País de nacimiento
+                <input type="text" name="pais_nacimiento">
+            </th>
+            <th class="personal_data" style="width:20%">
+                Fecha de nacimiento
+                <input type="text" name="fecha_nacimiento">
+            </th>
+        </tr>
+    </table>
+    <table style="height: 3em;">
+        <tr>
+            <th class="personal_data" style="width:30%">
+                Centro de procedencia
+                <input type="text" name="centro_procedencia">
+            </th>
+            <th class="personal_data" style="width:25%">
+                Primer idioma
+                <div id="idiomas">
+                    <input type="checkbox" value="ingles"> Inglés </input>
+                    <input type="checkbox" value="frances"> Francés </input>
+                </div>
+            </th>
+            <th class="personal_data" style="width:30%">
+                Opción Religiosa
+                <div id="religion">
+                    <input type="checkbox" value="catolica"> Religión Católica </input>
+                    <input type="checkbox" value="alternativa"> Alternativa </input>
+                </div>
+            </th>
+            <th class="personal_data" style="width:15%">
+                Repetidor
+                <div id="repetidor">
+                    <input type="checkbox" value="rep_si"> Sí</input>
+                    <input type="checkbox" value="rep_no"> No</input>
+                </div>
+            </th>
+        </tr>
+    </table>
+    <table>
+        <tr class="table_title">
+            <th><input type="checkbox" value="humanidades"> Humanidades </input></th>
+            <th><input type="checkbox" value="sociales"> Ciencias Sociales </input></th>
+        </tr>
+        <tr>
+            <th style="width:50%;">
+                <p>Materias Obligatorias</p>
+                <ul>
+                    <li>Historia Contemporánea</li>
+                    <li>Latín</li>
+                    <li>Griego I</li>
+                </ul>
+            </th>
+            <th>
+                <p>Materias Obligatorias</p>
+                <ul>
+                    <li>Historia Contemporánea</li>
+                    <li>Economía</li>
+                    <li>Matemáticas Aplicadas a las Ciencias Sociales I</li>
+                </ul>
+            </th>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th class="table_title" colspan=5>Elegir <u>dos</u> optativas por orden de preferencia, aunque sólo una será cursada</th>
+        </tr>
+        <tr>
+            <th class="opt_select"><input type="checkbox" value="act_fisica"></th>
+            <th class="optativa">Actividad Física. Salud y Calidad de Vida</th>
+            <th class="opt_select"><input type="checkbox" value="arte"></th>
+            <th class="optativa">Iniciación a la Obra de Arte</th>
+        </tr>
+        <tr>
+            <th class="opt_select"><input type="checkbox" value="cine"></th>
+            <th class="optativa">Cine Club en V.O. Francés</th>
+            <th class="opt_select"><input type="checkbox" value="com"></th>
+            <th class="optativa">Medios de Comunicación</th>
+        </tr>
+        <tr>
+            <th class="opt_select"><input type="checkbox" value="dibujo"></th>
+            <th class="optativa">Dibujo y Talleres Artísticos</th>
+            <th class="opt_select"><input type="checkbox" value="montaje"></th>
+            <th class="optativa">Montaje de un Receptor de Radio</th>
+        </tr>
+        <tr>
+            <th class="opt_select"><input type="checkbox" value="diseño"></th>
+            <th class="optativa">Diseño Web y Multimedia</th>
+            <th class="opt_select"><input type="checkbox" value="periodico"></th>
+            <th class="optativa">Periódico-Revista Digital del IES Los Manantiales</th>
+        </tr>
+        <tr>
+            <th class="opt_select"><input type="checkbox" value="ecologia"></th>
+            <th class="optativa">Ecología Experimental</th>
+            <th class="opt_select"><input type="checkbox" value="quimica"></th>
+            <th class="optativa">Química Exprimental</th>
+        </tr>
+        <tr>
+            <th class="opt_select"><input type="checkbox" value="foto"></th>
+            <th class="optativa">Foto y Vídeo</th>
+            <th class="opt_select"><input type="checkbox" value="audicion"></th>
+            <th class="optativa">Taller de Audición de Música</th>
+        </tr>
+        <tr>
+            <th class="opt_select"><input type="checkbox" value="psicologia"></th>
+            <th class="optativa">Gabinete de Psicología</th>
+        </tr>
+    </table>
+    <input type="button" value="Enviar formulario">
+</body>
+</html>

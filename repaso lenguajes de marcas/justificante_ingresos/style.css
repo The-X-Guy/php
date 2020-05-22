@@ -1,0 +1,75 @@
+body {
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 50%;
+    margin-top: -3%;
+    text-align: justify;
+    font-family: Arial;
+    font-size: .8em;    
+}
+form {
+    border: 1px solid black;
+    margin-bottom: 3%;
+    padding: 1%;
+}
+header div {
+    background-color: lightgray;
+    padding: .5%;
+    padding-right: 2%;
+    text-align: right;
+    width: 75%;
+    position: relative;
+    left: 22.5%;
+    border: 1px solid black;
+}
+h3 {
+    position: relative;
+    bottom: -.8em;
+    padding-left: 1%;
+}
+.tipo_matricula {
+    margin-left: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.matricula {
+    position: relative;
+    left: 1.9em;
+    bottom: 2.3em;
+    width: 96.5%;
+    padding-bottom: 2%;
+}
+em {
+    position: relative;
+    top: -1em;
+    font-size: 0.9em;
+}
+#codigo {
+    border: 1px solid black;
+    padding: .5%;
+    width: 16%;
+}
+img {
+    width: 12%;
+    position: relative;
+    top: 6em;
+    left: 2em;
+}
+.pago {
+    margin-left: 50%;
+    padding-bottom: 10%;
+    
+}
+input[type="text"] {
+    border-style: none;
+    border-bottom: 1px dotted black;
+    padding-top: .8%;
+    padding-bottom: .8%;
+    width: inherit;
+}
+label[class="datos"], label[class="fecha_firma"] {
+    vertical-align: sub;
+}
+.enviar {
+    text-align: right;
+}

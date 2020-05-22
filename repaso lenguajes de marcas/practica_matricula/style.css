@@ -1,0 +1,55 @@
+table, tr, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    margin-top: 1em;
+    width: 100%;
+    text-align: left;
+}
+.personal_data {
+    vertical-align: super;
+    text-align: left;
+}
+th {
+    height: 2.5em;
+    font-size: .8em;
+}
+p {
+    padding-left: 9%;
+}
+body {  
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+th div{
+    vertical-align: middle;
+    margin-top: .5%;
+    display: inline-block;
+}
+.table_title {
+    text-align: center;
+}
+.table_title div {
+    display: inline-block;
+}
+th[class="opt_select"] {
+    width: 5%;
+    padding-left: 1%;
+}
+th[class="optativa"] {
+    width: 45%;
+    padding-left: 3%;
+}
+.opt_select input {
+    margin-left: 20%;
+}
+input[type="text"] {
+    width: 95%;
+}
+input[type="button"] {
+    margin-left: 82%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}

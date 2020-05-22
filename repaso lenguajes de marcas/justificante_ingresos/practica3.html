@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="max-wdth: 100%S" >
+    <link rel="stylesheet" href="./style.css">
+    <title>Práctica 3</title>
+</head>
+<body>
+    <header>
+        <img src="./logo_uma.jpg">
+        <div>
+            <p><strong>JUSTIFICANTE DE INGRESO DE PRECIOS PÚBLICOS POR LA <br> PRESTACIÓN DE SERVICIOS Y OTROS DERECHOS</strong></p>
+        </div>
+    </header>
+    <h3>Datos identificativos del solicitante de la prestación.</h3>
+    <form>
+        <div>
+            <label class="datos">Nombre y apellidos: </label>
+            <input type="text" style="width:89%;">
+        </div>
+        <div>
+            <label class="datos">Domicilio: </label>
+            <input type="text" style="width:58%;">
+            <label class="datos">Código Postal: </label>
+            <input type="text" maxlenght="5" style="width: 6%;">
+            <label class="datos">Localidad: </label>
+            <input type="text">
+        </div>
+        <div>
+            <label class="datos">Provincia: </label>
+            <input type="text" style="width: 30%;">
+            <label class="datos">Teléfono nº: </label>
+            <input type="text" maxlenght="9" style="width: 30%;">
+            <label class="datos">D.N.I. nº: </label>
+            <input type="text" maxlength="9" style="width: 10.5%;">
+        </div>
+        <div>
+            <label class="datos">E-mail (en mayúsculas): </label>
+            <input type="text" maxlength="50" style="width: 78.5%;">
+        </div>
+    </form>
+    <h3>Datos identificativos del ingreso efectuado: (a cumplimentar por Unicaja)</h3>
+    <form>
+        <p><em>(fecha, firma y sello, o impresión mecánica, de la correspondiente oficina de Unicaja)</em></p>
+        <div style="padding-top: 3%;">
+            <p id="codigo">CÓDIGO: &nbsp;&nbsp;&nbsp;&nbsp;10233112128 1</p>
+            <p>
+                Por la presente de hace constar el ingreso de la cantidad de euros abajo indicada, 
+                en la cuenta 2103.0146.91.0030001000 que la Universidad de Málaga posee en esta
+                entidad financiera.
+            </p>
+            <p>
+                Este documento carece de validez si no está autenticado por la correspondiente impresión
+                mecánica, o en su defecto autorizado por persona con firma autorizada para sello.
+            </p>
+        </div>
+    </form>
+    <h3>Datos identificativos del servicio solicitado:</h3>
+    <form>
+        <div>
+            <div>
+                <div style="margin-bottom: -5%;">
+                <input type="checkbox">
+                    <p class="matricula">
+                        Pruebas de Aptitud para el Acceso a la Universidad (Selectividad).
+                        Denominación del Centro en que curso los estudios de Enseñanza Media.
+                    </p>
+                    </div>
+                <div class="tipo_matricula">
+                    <input type="checkbox"> Matrícula Normal </input><br>
+                    <input type="checkbox"> Matrícula Semigratuita (*) </input><br>
+                    <input type="checkbox"> Matrícula Gratuita (*) </input><br>
+                </div>
+                <input type="checkbox">
+                <label>Pruebas de Aptitud para el acceso a la Universidad de Mayores de 24 ó 45 años.</label>
+                <div class="tipo_matricula">
+                    <input type="checkbox"> Matrícula Normal </input><br>
+                    <input type="checkbox"> Matrícula Semigratuita (*) </input><br>
+                    <input type="checkbox"> Matrícula Gratuita (*) </input><br>
+                </div>
+            </div>
+            <p>Los miembros de Familia Numerosa General o Especial deberán adjuntar copia legalizada del Título de Familia Numerosa. </p>
+        </div>
+    </form>
+    <div class="pago">
+        <div style="margin-bottom: 3%;">
+            <label style="font-size: 1.1em;"><strong>Importe del ingreso: </strong></label>
+            <input style="border-style: none; border: 1px solid black; width: 46%;" type="text">
+            <label>euros.</label>
+        </div>
+        <label class="fecha_firma" style="padding-left: 25%;">Málaga, </label>
+        <input type="text" maxlenght="2" style="width: 10%;">
+        <label class="fecha_firma"> de </label>
+        <input type="text" style="width: 25%;">
+        <label class="fecha_firma"> de </label>
+        <input  type="text" maxlenght="4" style="width: 10%;">
+        <label style="font-size: .8em; padding-left: 40%; padding-top: 1%;">Firma del interesado.</label>
+    </div>
+    <div class="enviar">
+        <input type="submit" value="Enviar">
+        <input type="button" value="Limpiar">
+    </div>
+    <footer>
+        <p>Ejemplar nº 1: Para entregar por el interesado en la sección de Acceso de la Universidad de Málaga.</p>
+    </footer>
+</body>
+</html>

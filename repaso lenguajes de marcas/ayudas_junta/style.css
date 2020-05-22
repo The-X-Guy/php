@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#banner1, #banner2, #footer{
+    background-color:green;
+    font-weight: bold;
+    color:white;
+}
+#banner2 {
+    text-align: center;
+    font-size: 1.2em;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#banner1 {
+    font-size: 1.5em;
+    padding-top:2%;
+    padding-bottom: 2%;
+    border-radius: 0px 0px 15px 0px;
+}
+#content_inside{
+    text-align:justify;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#main_content {
+    text-align: center;
+}
+#footer {
+    font-size: .7em;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 1%;
+}
+.oval {
+    width: 50%;
+    height: 10;
+    border-radius: 15px 15px 15px 15px;
+}
+.oval_footer {
+    width: 20%;
+    height: 10%;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    color:black;
+    margin-left:75%;
+    margin-right: 5%;
+    position: relative;
+    top: -40px;
+    text-align:center;
+}
+.images {
+    position: relative;
+    left: 5%;
+    right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+img {
+    padding-right: 2%;
+}
+.ultimas_plazas {
+    position: relative;
+    left: 10%;
+}
